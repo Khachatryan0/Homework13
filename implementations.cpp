@@ -83,7 +83,7 @@
     }
     bool bank_decision(bool i1; bool i2; int i3)
     {
-        if ((i1 || i2 || (i3 >= 21)) == true)
+        if ((i1 && i2 && (i3 >= 21)) == true)
         {
             std :: cout "You can use our loan service \n";
         }
